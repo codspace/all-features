@@ -1,9 +1,20 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base",
-  "features": {
-    "ghcr.io/devcontainers/features/go:1": {},
-    "ghcr.io/devcontainers/features/ruby": {},
-    "ghcr.io/devcontainers/features/aws-cli@sha256:8d39e89cc98291953fb03cf7ef540dc1a7c78c3162f0eee9b61c800e4838f807": {},
-    "ghcr.io/devcontainers/features/common-utils:1.1": {}
-  }
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+//    "features": {
+//       "ghcr.io/codspace/versioning/foo:1": {},
+//       "ghcr.io/codspace/versioning/bar:1": {},
+//        "ghcr.io/codspace/dependson/a:2": {},
+//        "ghcr.io/devcontainers/features/go:0": {},
+//        "ghcr.io/codspace/dependson/b:2": {},
+//        "devwasm.azurecr.io/dev-wasm/dev-wasm-feature/dotnet-wasi": {},
+//        "devwasm.azurecr.io/dev-wasm/dev-wasm-feature/golang-wasi": {},
+//    },
+    "postStartCommand": "echo 'poststart'",
+    "postAttachCommand": "echo 'postattach'",
+    "features": {
+        "ghcr.io/devcontainers/features/go:1": {},
+        "ghcr.io/devcontainers/features/ruby": {},
+        "ghcr.io/devcontainers/features/aws-cli@sha256:4b67518ec3733df53110c3caf7b9d6007363d1b5aaae2f1fa27f18ad0cc9b2b9": {},
+        "ghcr.io/devcontainers/features/common-utils@sha256:8e06ac831d00c65d13f1776d9fd88249b51e1aa4ccc89a2f4be5e19decc4772a": {}
+    }
 }
