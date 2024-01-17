@@ -1,0 +1,9 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base",
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {},
+    "ghcr.io/devcontainers/features/ruby": {},
+    "ghcr.io/devcontainers/features/aws-cli@sha256:8d39e89cc98291953fb03cf7ef540dc1a7c78c3162f0eee9b61c800e4838f807": {},
+    "ghcr.io/devcontainers/features/common-utils:1.1": {}
+  }
+}
