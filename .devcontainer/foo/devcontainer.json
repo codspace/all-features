@@ -15,6 +15,9 @@
         "ghcr.io/devcontainers/features/go:1": {},
         "ghcr.io/devcontainers/features/ruby": {},
         "ghcr.io/devcontainers/features/aws-cli@sha256:4b67518ec3733df53110c3caf7b9d6007363d1b5aaae2f1fa27f18ad0cc9b2b9": {},
-        "ghcr.io/devcontainers/features/common-utils@sha256:8e06ac831d00c65d13f1776d9fd88249b51e1aa4ccc89a2f4be5e19decc4772a": {}
+        "ghcr.io/devcontainers/features/common-utils@sha256:8e06ac831d00c65d13f1776d9fd88249b51e1aa4ccc89a2f4be5e19decc4772a": {},
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {
+            "blah": "blah"
+        }
     }
 }
